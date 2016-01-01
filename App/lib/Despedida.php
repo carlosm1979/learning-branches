@@ -12,14 +12,13 @@ namespace App\lib;
 class Despedida
 {
 
-    public function chao($name=""){
-        echo "Chao ".$name;
+    public function chao($name = "")
+    {
+        echo "Chao " . $name;
     }
 
-    public function adios(){
-        echo "adios";
+    public function adios($name = "")
+    {
+        echo "adios " . $name;
     }
-
-
-
 }
