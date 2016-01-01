@@ -16,6 +16,10 @@ class Despedida
         echo "Chao ".$name;
     }
 
+    public function adios(){
+        echo "adios";
+    }
+
 
 
 }
