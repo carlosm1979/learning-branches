@@ -19,6 +19,6 @@ class Despedida
 
     public function adios($name = "")
     {
-        echo "adios " . $name;
+        echo "bye bye " . $name;
     }
 }
