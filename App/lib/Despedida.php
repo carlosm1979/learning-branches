@@ -12,8 +12,10 @@ namespace App\lib;
 class Despedida
 {
 
-    public function chao(){
-        echo "Chao";
+    public function chao($name=""){
+        echo "Chao ".$name;
     }
+
+
 
 }
